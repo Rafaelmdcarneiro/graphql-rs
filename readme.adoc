@@ -1,6 +1,6 @@
-= GraphQL Rust Demo
+= GraphQL in Rust
 
-image:https://github.com/rkudryashov/graphql-rust-demo/actions/workflows/workflow.yml/badge.svg[CI/CD,link=https://github.com/rkudryashov/graphql-rust-demo/actions]
+image:https://github.com/rafaelmdcarneiro/graphql-rust-demo/actions/workflows/workflow.yml/badge.svg[CI/CD,link=https://github.com/rafaelmdcarneiro/graphql-rust-demo/actions]
 
 image:https://romankudryashov.com/blog/2022/07/apollo-router/images/architecture.png[Architecture,800]
 
@@ -9,4 +9,4 @@ Articles:
 * https://romankudryashov.com/blog/2020/12/graphql-rust/[GraphQL in Rust]
 * https://romankudryashov.com/blog/2022/07/apollo-router/[Building a unified GraphQL API with Apollo Router]
 
-The source code is available on https://github.com/rkudryashov/graphql-rust-demo[GitHub] and https://gitlab.com/romankudryashov/graphql-rust-demo[GitLab].
+The source code is available on https://github.com/rafaelmdcarneiro/graphql-rust-demo[GitHub] and https://gitlab.com/rafaelmdcarneiro/graphql-rust-demo[GitLab].

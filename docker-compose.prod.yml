@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+
+  auth-service:
+    environment:
+      SECURED_USER_PASSWORD_HASH: $$argon2id$v=19$m=19456,t=2,p=1$XTlWlbVJ2tqXCA182eEfVg$QaZwTCEmvRMM2M36LfBUyqmv4+zhhfjy65WDcvGsyYQ
+
+  gateway:
+    ports:
+      - 80:4000

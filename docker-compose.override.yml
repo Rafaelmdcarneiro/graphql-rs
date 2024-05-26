@@ -1,0 +1,23 @@
+# development configuration
+version: '3.9'
+services:
+
+  planets-service:
+    build:
+      context: .
+      dockerfile: ./planets-service/Dockerfile
+
+  satellites-service:
+    build:
+      context: .
+      dockerfile: ./satellites-service/Dockerfile
+
+  auth-service:
+    build:
+      context: .
+      dockerfile: ./auth-service/Dockerfile
+
+  gateway:
+    build:
+      context: .
+      dockerfile: ./gateway/Dockerfile

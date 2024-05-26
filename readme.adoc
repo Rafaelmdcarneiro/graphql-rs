@@ -1,7 +1,5 @@
 = GraphQL in Rust
 
-image:https://github.com/rafaelmdcarneiro/graphql-rust-demo/actions/workflows/workflow.yml/badge.svg[CI/CD,link=https://github.com/rafaelmdcarneiro/graphql-rust-demo/actions]
-
 image:https://romankudryashov.com/blog/2022/07/apollo-router/images/architecture.png[Architecture,800]
 
 Articles:

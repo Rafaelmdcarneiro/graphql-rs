@@ -1,0 +1,22 @@
+supergraph:
+  listen: 0.0.0.0:4000
+  introspection: true
+
+sandbox:
+  enabled: true
+
+homepage:
+  enabled: false
+
+headers:
+  all:
+    request:
+      - remove:
+          named: .*
+      - insert:
+          name: "role"
+          from_context: "user_role"
+
+plugins:
+  demo.jwt_validation:
+    secret_key: ${env.JWT_SECRET_KEY}

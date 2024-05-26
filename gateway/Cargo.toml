@@ -1,0 +1,21 @@
+[package]
+name = "gateway"
+version = "0.1.0"
+authors = ["Roman Kudryashov <rskudryashov@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+common-utils = { path = "../common-utils" }
+apollo-router = "1.46.0"
+anyhow = "1.0.85"
+async-trait = "0.1.80"
+futures = "0.3.30"
+schemars = "0.8.19"
+jsonwebtoken = "9.3.0"
+serde = "1.0.202"
+serde_json = "1.0.117"
+tokio = { version = "1.37.0", features = ["full"] }
+tower = { version = "0.4.13", features = ["full"] }
+tracing = "0.1.40"
+http = "1.1.0"
+dotenv = "0.15.0"
